@@ -24,7 +24,7 @@ DMs are sent one by one with a short pause between them to stay under Discord's 
 2. In the bot's settings, turn ON the **Server Members** privileged intent (Bot → Privileged Gateway Intents) — /dm needs it to find role members and everyone.
 3. Invite the bot with scope `bot applications.commands` (Administrator permission is simplest; it only sends DMs and posts embeds).
 4. `npm install`
-5. Copy `config.example.json` to `config.json` and fill in:
+5. Open `config.json` and fill in:
    - `token` — the bot token
    - `clientId` — the application ID
    - `testGuildId` — optional: a server ID to register commands in instantly while testing. Leave empty to register globally.
