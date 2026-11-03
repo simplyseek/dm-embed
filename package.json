@@ -1,0 +1,12 @@
+{
+  "name": "dm-embed-bot",
+  "version": "1.0.0",
+  "description": "A small Discord bot: DM a role, a user, or everyone in a server, with saved embeds you can attach to the DM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
